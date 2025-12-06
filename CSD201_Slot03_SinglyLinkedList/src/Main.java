@@ -1,0 +1,30 @@
+
+import java.util.Scanner;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+/**
+ *
+ * @author khoac
+ */
+public class Main {
+
+    public static void main(String[] args) {
+        MyList t = new MyList();
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Size of list: ");
+        int size = sc.nextInt();
+
+        t.loadData(size);
+        
+//        t.f1();
+//        t.f2();
+//        t.f3();
+        t.f4();
+        t.f5();
+    }
+}
